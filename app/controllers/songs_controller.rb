@@ -7,7 +7,6 @@ class SongsController < ApplicationController
      redirect_to songs_path
    end
 
-   Song Clean,ARTIST CLEAN,Release Year,COMBINED,First?,Year?,PlayCount,F*G
 
 
 
