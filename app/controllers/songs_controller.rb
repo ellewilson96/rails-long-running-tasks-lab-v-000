@@ -4,7 +4,7 @@ class SongsController < ApplicationController
      CSV.foreach(params[:file].path, headers: true) do |file|
        Song.create(song: file[0], first_name: file[1], last_name: file[2])
      end
-     redirect_to customers_path
+     redirect_to songs_path
    end
 
 
